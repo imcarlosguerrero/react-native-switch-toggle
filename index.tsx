@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
 });
 
-interface Props {
+export interface SwitchToggleProps {
   testID?: string;
   switchOn: boolean;
   onPress: () => void;
@@ -45,7 +45,7 @@ interface Props {
   RTL?: boolean;
 }
 
-function SwitchToggle(props: Props): React.ReactElement {
+function SwitchToggle(props: SwitchToggleProps): React.ReactElement {
   const {
     backgroundColorOn = 'black',
     backgroundColorOff = '#C4C4C4',

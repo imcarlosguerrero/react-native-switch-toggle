@@ -26,21 +26,5 @@ export interface SwitchToggleProps {
     leftContainerStyle?: StyleProp<ViewStyle>;
     RTL?: boolean;
 }
-declare function SwitchToggle(props: SwitchToggleProps): React.ReactElement;
-declare namespace SwitchToggle {
-    var defaultProps: {
-        containerStyle: {
-            marginTop: number;
-            width: number;
-            height: number;
-            borderRadius: number;
-            padding: number;
-        };
-        circleStyle: {
-            width: number;
-            height: number;
-            borderRadius: number;
-        };
-    };
-}
+declare function SwitchToggle({ testID, switchOn, onPress, containerStyle, circleStyle, backgroundColorOn, backgroundColorOff, circleColorOn, circleColorOff, duration, backgroundImageOn, backgroundImageOff, type, buttonText, backTextRight, backTextLeft, buttonTextStyle, textRightStyle, textLeftStyle, buttonStyle, buttonContainerStyle, rightContainerStyle, leftContainerStyle, RTL, }: SwitchToggleProps): React.ReactElement;
 export default SwitchToggle;

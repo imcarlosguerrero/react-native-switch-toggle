@@ -1,6 +1,6 @@
 {
-  "name": "react-native-switch-toggle",
-  "version": "2.2.1",
+  "name": "@imcarlosguerrero/react-native-switch-toggle",
+  "version": "2.2.3",
   "description": "Highly customizable animating react native switch toggle component.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
